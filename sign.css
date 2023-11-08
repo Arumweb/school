@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 99vh;
+    width: 99%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.round{
+    height: 120px;
+    width: 120px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.username,
+.password{
+    height: 40px;
+    width: 350px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0,0.0);
+    color: white;
+    text-align: center;
+}
+::placeholder{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.font{
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.font i{
+    color: white;
+    font-size: 20px;
+}
+.login{
+    height: 40px;
+    width: 140px;
+    background-color: yellow;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.create{
+    height: 30px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.create a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+/* toast */
+.toast {
+    height: 80px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-right: 10px solid red;
+    animation-name: toast;
+    animation-duration: 2s;
+    top: 20px;
+    transition: top 2s;
+    /* display: none; */
+    visibility: hidden;
+}
+
+@keyframes toast{
+    from{
+        top: 0;
+    }
+    to{
+        top: 20px;
+    }
+
+}
+
+.toast-inner1 {
+    height: 60px;
+    width: 250px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.toast-inner2 {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* toast */

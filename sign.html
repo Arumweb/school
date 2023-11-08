@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="fontawesome-6/css/all.css">
+    <link rel="stylesheet" href="sign.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="round">
+        <i class="fas fa-user" style="font-size: 40px;color: white;"></i>
+    </div>
+    <h1 style="color:white;font-weight: 100;text-transform: capitalize;align-items: center;margin-top: 10px;">create a new account</h1>
+    <div >
+        <input type="text" class="username" placeholder="user full name" id="name">
+        <div class="font" style="top:253px">
+            <i class="fas fa-user"></i>
+        </div>
+    </div>
+    <div >
+        <input type="email" class="username" placeholder="number" id="number">
+        <div class="font" style="top:318px">
+            <i class="fas fa-phone"></i>
+        </div>
+    </div>
+    <div >
+        <input type="text" name="" id="password" class="password" placeholder="password">
+        <!-- <input type="text" class="password" placeholder="password" id="password"> -->
+        <div class="font" style="top: 384px;">
+            <i class="fas fa-lock"></i>
+        </div>
+    </div>
+    <div style="margin-top: 20px;">
+    </div>
+    <div class="login" id="sign-up">
+        <p >sign up</p>
+    </div>
+    <div class="create">
+        <a href="login.html">already have an account</a>
+    </div>
+    <div class="create">
+        <a href="../index.html">home</a>
+    </div>
+    <div class="toast" id="toast">
+        <div class="toast-inner1">
+            <p style="color:red" id="message-head">Error message</p>
+            <p id="message-main">incorrect password</p>
+        </div>
+        <div class="toast-inner2">
+            <i class="fas fa-warning" style="font-size: 20px;"></i>
+        </div>
+    </div>
+    <script src="sign.js"></script>
+</body>
+</html>

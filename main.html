@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="fontawesome-6/css/all.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="main_media.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-inner-1">
+        <div class="round">
+          <i class="fas fa-graduation-cap" style="font-size: 25px"></i>
+        </div>
+        <h1 style="font-family: monospace" class="name">Holy angels school</h1>
+      </div>
+      <div class="nav-inner-3">
+        <div class="logout">
+          <a href="login.html">log out</a>
+        </div>
+      </div>
+    </nav>
+    <div class="mother">
+      <div class="side">
+        <div class="profile">
+          <div class="image-box">
+            <label for=""><img src="" alt="" id="image" for="file" /></label>
+          </div>
+          <!-- <label  id=""><i class="fas fa-camera" style="font-size: 15px;color:white;" ></i></label> -->
+          <input
+            type="file"
+            id="file"
+            accept="image/png,image/jpg,image/webp"
+          />
+          <h3 style="font-family: Arial, Helvetica, sans-serif" id="name"></h3>
+          <i class="fas fa-edit" style="color: gray"></i>
+        </div>
+        <div class="widthdarw">
+          <i
+            class="fas fa-bank"
+            style="font-size: 30px; color: gray; margin-top: 30px"
+          ></i>
+          <h1
+            style="font-family: Arial, Helvetica, sans-serif; font-weight: 100"
+            id="balance"
+          ></h1>
+          <p style="color: gray">Available balance</p>
+          <div class="choose">
+            <p>Widthdraw</p>
+            <p>deposit</p>
+          </div>
+        </div>
+        <div class="emergency" style="gap: 10px">
+          <i
+            class="fas fa-phone"
+            style="font-size: 30px; color: gray; margin-top: 20px"
+          ></i>
+          <h3 style="text-transform: capitalize">need help?</h3>
+          <p style="font-size: 15px; color: gray">
+            have questions and concerns <br />
+            regarding your account <br />
+            our expert are here to help
+          </p>
+          <div
+            class="choose"
+            style="
+              border: none;
+              background-color: green;
+              height: 20px;
+              margin-top: 10px;
+            "
+          >
+            <h4 style="color: white">chat with us</h4>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="list">
+          <h3
+            style="
+              margin-top: 10px;
+              margin-left: 20px;
+              font-weight: 100;
+              text-align: center;
+            "
+          >
+            services
+          </h3>
+          <div class="gride">
+            <div class="box1">
+              <i
+                class="fas fa-school"
+                style="color: gray; font-size: 35px; margin-top: 30px"
+              ></i>
+              <h3 style="font-weight: 100">pay school fees debt</h3>
+            </div>
+            <div class="box2">
+              <i
+                class="fas fa-edit"
+                style="color: gray; font-size: 35px; margin-top: 30px"
+              ></i>
+              <h3 style="font-weight: 100">register student</h3>
+            </div>
+            <div class="box3">
+              <i
+                class="fas fa-toilet"
+                style="color: gray; font-size: 35px; margin-top: 30px"
+              ></i>
+              <h3 style="font-weight: 100">teachers fee/toiletries</h3>
+            </div>
+          </div>
+        </div>
+        <h2 style="text-align: center; font-family: monospace" class="trick">
+          history
+        </h2>
+        <div class="history">
+          <table>
+            <thead>
+              <tr>
+                <th>date</th>
+                <th>account</th>
+                <th>description</th>
+                <th>status</th>
+                <th>amount</th>
+                <th>date</th>
+              </tr>
+            </thead>
+            <tbody class="tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="register">
+      <div class="pay" style="display: flex;flex-direction: column;align-items: center;justify-content: space-around;">
+        <p style="color: red;" class="remove1" style="cursor: pointer;">X</p>
+        <p class="info1"></p>
+        <input type="text" placeholder="name " class="name1">
+        <select name="" id=""  class="class1">
+            <option value="class">class</option>
+            <option value="jss1">jss1</option>
+            <option value="jss2">jss2</option>
+            <option value="jss3">jss3</option>
+            <option value="ss1">ss1</option>
+            <option value="ss2">ss2</option>
+            <option value="ss3">ss3</option>
+        </select>
+        <input type="text" placeholder="id"  readonly="readonly" class="id1">
+        <button style="background-color: green;border: none;height: 40px;width: 120px;color: white;cursor: pointer;" id="register_btn">register</button>
+
+      </div>
+    </div>
+    <div class="money">
+
+      <div class="pay"  style="display: flex;flex-direction: column;align-items: center;justify-content: space-around;">
+        <p style="color: red;" class="remove2"  style="cursor: pointer;">X</p>
+        <p  class="info2"></p>
+        <input type="text" placeholder="name " class="name2">
+        <select name="class" id=""  class="class2">
+            <option value="">class</option>
+            <option value="jss1">jss1</option>
+            <option value="jss2">jss2</option>
+            <option value="jss3">jss3</option>
+            <option value="ss1">ss1</option>
+            <option value="ss2">ss2</option>
+            <option value="ss3">ss3</option>
+        </select>
+        <input type="text" placeholder="id" class="id2">
+        <input type="number"  placeholder="amount"  class="amount">
+        <button style="background-color: green;border: none;height: 40px;width: 120px;color: white;cursor: pointer;" class="pay_btn">pay</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

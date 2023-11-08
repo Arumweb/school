@@ -1,26 +1,29 @@
-// let database = [
-//   [
-//     {
-//       username: 'kingsley',
-//       number: 'kingsley@gmail.com',
-//       password: '@kingsley',
-//       url: "images/login.png",
-//       balance: "0.00",
-//       message: "",
-//     },
-//   ],
-//   [
-//     {
-//         name: 'ugo',
-//         class: 'ss3',
-//         id:'54554545'
-//     }
-//   ],
-//   {
-//     active:''
-//   }
-// ];
-// localStorage.setItem("school", JSON.stringify(database));
+let database=JSON.prase(localstorage.getitem("school"))
+if(database === null){
+  let database = [
+  [
+    {
+      username: 'kingsley',
+      number: 'kingsley@gmail.com',
+      password: '@kingsley',
+      url: "images/login.png",
+      balance: "0.00",
+      message: "",
+    },
+  ],
+  [
+    {
+        name: 'ugo',
+        class: 'ss3',
+        id:'54554545'
+    }
+  ],
+  {
+    active:''
+  }
+];
+localStorage.setItem("school", JSON.stringify(database));
+}
 
 let sign_up = (document.getElementById("sign-up").onclick = function () {
   let database = JSON.parse(localStorage.getItem("school"));

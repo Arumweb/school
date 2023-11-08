@@ -1,4 +1,4 @@
-let database=JSON.prase(localstorage.getitem("school"))
+let database=JSON.parse(localStorage.getItem("school"));
 if(database === null){
   let database = [
   [
